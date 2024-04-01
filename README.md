@@ -1,2 +1,23 @@
 # ACerS_AE_2024
 Materials for ACerS Automated Experiment Course
+
+Recent developments in artificial intelligence (AI) and machine learning (ML) combined with the emergence of Python control interfaces for imaging and characterization tools and laboratory automation and robotics are rapidly creating unprecedented opportunities for the accelerated discovery and optimization of materials. The adoption of the automated experiment workflows in experimental labs from industry to academia is now limited primarily by the knowledge gap required to effectively integrate automated research tools in everyday lab activities. This series of lectures is designed to meet this need. The course will introduce the opportunities opened by the automated tools for experimental materials and ceramics sciences. It will briefly discuss the need for reward-driven workflow planning and provide the overview of instrumental setup, experimental workflow, data management, and modes of human-AI interaction. The core of the course will be dedicated to the Bayesian-Optimization based automated experiment, providing an in-depth physicist's perspective on this framework. Starting from the basic Gaussian Process based Bayesian Optimization, the attendees will be introduced to the structured Gaussian Processes, Deep Kernel Learning, and multifidelity and multitask GP. These will be illustrated for structure-property relationship discovery and learning physical laws via autonomous microscopy, and materials synthesis. Based on these building blocks, we will explore the principle of simple optimization, design of cost-aware workflows, and co-orchestration of multiple tools. In all cases, the emphasis will be made on hands-on tutorials that guide the attendees from the basic concept to the real-world implementations. Finally, the course will introduce the human in the loop workflows and highlight the possible interactions between human and ML/AI agents in the experimental labs. 
+
+The tentative outline of the course is as following:
+1.	Current opportunities for automated experiment in synthesis and characterization: from single tools to cloud laboratories
+2.	Objectives and rewards for automated experiment
+3.	Reward driven workflow design, orchestration, and execution
+4.	Gaussian processes and Bayesian Optimization
+5.	GP and BO in real world: cost and value
+6.	Bayesian Inference and structured Gaussian Processes
+7.	Hypothesis learning 
+8.	Manifold learning, variational autoencoders, and encoders-decoders, 
+9.	Deep Kernel Learning and structure-property discovery
+10.	DKL, explainable automated experiments, and human in the loop AE
+11.	Multifidelity structured GP for co-orchestration of multiple tools
+12.	Future perspectives 
+
+Who Should Attend
+This course is intended for researchers in industry and academia interested in machine learning for experiment automation in materials science. The course is designed for a broad experimental materials science audience, and assumes no prior knowledge of ML/AI methods.  
+
+Lecturer: Sergei V. Kalinin is a Weston Fulton chair professor at the University of Tennessee, Knoxville. In 2022 – 2023, he has been a principal scientist at Amazon (special projects). Before then, he had spent 20 years at Oak Ridge National Laboratory where he was corporate fellow and group leader at the Center for Nanophase Materials Sciences. He received his MS degree from Moscow State University in 1998 and Ph.D. from the University of Pennsylvania (with Dawn Bonnell) in 2002. He has >15 years of experience applying AI in experimental physical sciences from data analytics, theory-experiment matching, and automated and autonomous microscopy and materials synthesis. His research focuses on the applications of machine learning and artificial intelligence methods in materials synthesis, discovery, and optimization, automated experiment and autonomous imaging and characterization workflows in scanning transmission electron microscopy and scanning probes for applications including physics discovery, atomic fabrication, as well as mesoscopic studies of electrochemical, ferroelectric, and transport phenomena via scanning probe microscopy. Sergei has co-authored >650 publications, with a total citation of ~50,000 and an h-index of >112. He is a fellow of AAIA, MRS, APS, IoP, IEEE, Foresight Institute, and AVS; a recipient of the Feynmann Prize of Foresight Institute (2022), Blavatnik Award for Physical Sciences (2018), RMS medal for Scanning Probe Microscopy (2015), Presidential Early Career Award for Scientists and Engineers (PECASE) (2009); Burton medal of Microscopy Society of America (2010); 5 R&D100 Awards (2008, 2010, 2016, 2018, and 2023); and a number of other distinctions.
